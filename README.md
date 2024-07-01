@@ -1,5 +1,5 @@
 # EShopMicroservices
-Aplicação em .NET utilizando os conceitos da arquitetura de Microserviços
+Aplicação desenvolvida em .NET com o objetivo de demonstrar e aplicar os conceitos da arquitetura de microserviços. A aplicação é estruturada em vários serviços independentes que se comunicam entre si, proporcionando maior escalabilidade e facilidade de manutenção. Foi utilizado .NET Core para criar serviços robustos e de alto desempenho, enquanto o API Gateway serve como ponto único de entrada, facilitando a gestão e segurança das requisições.
 
 
 
