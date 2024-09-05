@@ -1,5 +1,4 @@
 ﻿
-using FluentValidation;
 
 namespace Catalog.API.Products.UpdateProduct;
 
