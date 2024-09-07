@@ -1,6 +1,5 @@
-using BuildingBlocks.Bahaviors;
+using BuildingBlocks.Behaviors;
 using BuildingBlocks.Exceptions.Handler;
-using Microsoft.AspNetCore.Diagnostics;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +10,7 @@ builder.Services.AddMediatR(config =>
 {
     config.RegisterServicesFromAssembly(assembly);
     config.AddOpenBehavior(typeof(ValidationBehavior<,>));
+    config.AddOpenBehavior(typeof(LoggingBehavior<,>));
 });
 
 builder.Services.AddCarter();
