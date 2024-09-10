@@ -17,7 +17,6 @@
   <ItemGroup>
     <Folder Include="Basket\DeleteBasket\" />
     <Folder Include="Basket\CheckoutBasket\" />
-    <Folder Include="Basket\StoreBasket\" />
   </ItemGroup>
 
   <ItemGroup>
