@@ -5,3 +5,4 @@ global using MediatR;
 global using Mapster;
 global using FluentValidation;
 global using BuildingBlocks.Bahaviors;
+global using BuildingBlocks.Exceptions;
