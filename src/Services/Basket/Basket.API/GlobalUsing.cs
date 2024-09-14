@@ -7,3 +7,5 @@ global using FluentValidation;
 global using BuildingBlocks.Bahaviors;
 global using BuildingBlocks.Exceptions;
 global using Basket.API.Data;
+global using Microsoft.Extensions.Caching.Distributed;
+global using System.Text.Json;
